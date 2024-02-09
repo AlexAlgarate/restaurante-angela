@@ -21,9 +21,7 @@ class Color(Enum): ...
 
 
 def header() -> rx.Component:
-    return rx.heading(
-        "Restaurante Ángela", size="2xl", color="#3a58de", margin_top="20px"
-    )
+    return rx.heading("Restaurante Ángela", size="2xl", color="#3a58de", margin_top="20px")
 
 
 def _text(text: str) -> rx.Component:
@@ -47,9 +45,7 @@ def _text(text: str) -> rx.Component:
 def main_text() -> rx.Component:
     return rx.vstack(
         _text("Página en construcción, disculpen las molestias."),
-        _text(
-            "Si quieren ponerse en contacto a través de Wahtsapp, haga click en el botón:"
-        ),
+        _text("Si quieren ponerse en contacto a través de Wahtsapp, haga click en el botón:"),
     )
 
 
@@ -116,4 +112,8 @@ def index() -> rx.Component:
 
 
 app = rx.App()
-app.add_page(index)
+app.add_page(
+    index,
+    title="Restaurante Los Fogones de Ángela",
+    description="Página web del restaurante Los Fogones de Ángela",
+)
