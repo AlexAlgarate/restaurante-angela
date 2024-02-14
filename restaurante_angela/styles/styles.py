@@ -1,5 +1,7 @@
 from enum import Enum
+
 import reflex as rx
+
 from . import Colors, Fonts
 
 MAX_WIDTH = "1440px"
@@ -24,17 +26,25 @@ STYLESHEETS = [
 
 BASE_STYLE = {
     "background": Colors.BACKGROUND.value,
+    "max_width": MAX_WIDTH,
+    "width": "100%",
     rx.Heading: {
         "color": Colors.TITLE.value,
         "font_family": Fonts.TITLE.value,
         "font_style": "normal",
         "font_weight": "400",
         "line_height": "normal",
+        "font_size": [
+            "32px",
+            "32px",
+            "32px",
+            "56px",
+            "56px",
+        ],
     },
     rx.Text: {
         "color": Colors.TEXT.value,
         "font_family": Fonts.DEFAULT.value,
-        # "font_size": Size.MAIN_TEXTS.value,
         "font_style": "normal",
         "font_weight": "400",
         "line_height": "normal",

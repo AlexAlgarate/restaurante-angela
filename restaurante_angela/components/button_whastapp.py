@@ -1,8 +1,8 @@
 import reflex as rx
+
 from restaurante_angela.styles import utils as utils
 from restaurante_angela.styles.colors import Colors
 from restaurante_angela.styles.fonts import Fonts
-from restaurante_angela.styles.styles import Size
 
 
 def button_whastapp() -> rx.Component:
