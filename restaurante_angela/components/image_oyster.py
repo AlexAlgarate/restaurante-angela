@@ -5,7 +5,7 @@ from restaurante_angela.styles import Routes
 
 def image_oyster(
     width: str = "856x",
-    height: str = "472px",
+    height: str = "532px",
     position: str = None,
     right: str = None,
     bottom: str = None,

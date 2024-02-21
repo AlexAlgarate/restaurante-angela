@@ -6,12 +6,21 @@ from restaurante_angela.views.mobile import mobile
 
 
 def index() -> rx.Component:
-    return rx.vstack(
+    return rx.hstack(
         rx.script("document.documentElement.lang='es'"),
         desktop(),
         mobile(),
         width="100%",
     )
+
+
+# def index() -> rx.Component:
+#     return rx.vstack(
+#         rx.script("document.documentElement.lang='es'"),
+#         desktop(),
+#         mobile(),
+#         width="100%",
+#     )
 
 
 app = rx.App(style=styles.BASE_STYLE, stylesheets=styles.STYLESHEETS)
