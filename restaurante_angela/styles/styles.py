@@ -26,7 +26,6 @@ STYLESHEETS = [
 
 BASE_STYLE = {
     "background": Colors.BACKGROUND.value,
-    "max_width": MAX_WIDTH,
     "width": "100%",
     rx.Heading: {
         "color": Colors.TITLE.value,
