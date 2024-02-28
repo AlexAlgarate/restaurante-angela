@@ -35,6 +35,7 @@ def desktop() -> rx.Component:
             width="100%",
             flex="1 0 0",
             padding="30px 80px 86px 30px",
+            height="100vh",
         ),
     )
 

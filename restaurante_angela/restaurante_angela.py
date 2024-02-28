@@ -10,7 +10,8 @@ def index() -> rx.Component:
         rx.script("document.documentElement.lang='es'"),
         desktop(),
         mobile(),
-        width="100%",
+        # width="100%",
+        min_height="100%",
     )
 
 
