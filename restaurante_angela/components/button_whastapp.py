@@ -10,7 +10,7 @@ def button_whastapp() -> rx.Component:
         rx.button(
             utils.text_button,
             text_align="center",
-            padding="16px",
+            padding="18px",
             justify_content="center",
             align_items="center",
             gap="8px",
@@ -24,6 +24,7 @@ def button_whastapp() -> rx.Component:
             font_weight="600",
             line_height="24px",
             letter_spacing="0.36px",
+            width="fit-content",
         ),
         href="https://wa.me/34622498850",
         is_external=True,

@@ -1,6 +1,10 @@
 title = "Estamos mejorando para ti"
 
-text_below_title_one = "Estamos trabajando en nuestra página web para que tu experiencia con nosotros sea cada vez mejor."
+text_below_title_one = """
+Estamos trabajando en nuestra página web para que
+tu experiencia con nosotros sea cada vez mejor.
+"""
+
 
 text_below_title_two = "Mientras tanto, puedes ponerte en contacto con nosotros:"
 

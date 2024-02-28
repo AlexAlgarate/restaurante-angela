@@ -27,7 +27,7 @@ STYLESHEETS = [
 BASE_STYLE = {
     "background": Colors.BACKGROUND.value,
     "width": "100%",
-    rx.Heading: {
+    rx.heading: {
         "color": Colors.TITLE.value,
         "font_family": Fonts.TITLE.value,
         "font_style": "normal",
@@ -41,7 +41,7 @@ BASE_STYLE = {
             "56px",
         ],
     },
-    rx.Text: {
+    rx.text: {
         "color": Colors.TEXT.value,
         "font_family": Fonts.DEFAULT.value,
         "font_style": "normal",

@@ -15,7 +15,7 @@ def index() -> rx.Component:
 
 
 # def index() -> rx.Component:
-#     return rx.vstack(
+#     return rx.chakra.hstack(
 #         rx.script("document.documentElement.lang='es'"),
 #         desktop(),
 #         mobile(),
@@ -28,4 +28,5 @@ app.add_page(
     index,
     title="Restaurante Ostras Nin",
     description="Página web del restaurante Ostras Nin",
+    image="/images/imagen_web_ostras_nin.jpg",
 )

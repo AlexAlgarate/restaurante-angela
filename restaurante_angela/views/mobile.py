@@ -6,7 +6,6 @@ from restaurante_angela.components.contact_box import contact_box
 from restaurante_angela.components.image_oyster import image_oyster
 from restaurante_angela.components.logo import logo
 from restaurante_angela.components.main_text import main_text
-from restaurante_angela.styles import styles
 from restaurante_angela.styles import utils as utils
 
 
@@ -15,7 +14,7 @@ def mobile() -> rx.Component:
         rx.box(
             rx.flex(
                 logo(width="80.36px", height="98px"),
-                rx.heading(utils.title, size="2xl"),
+                rx.heading(utils.title, size="8"),
                 main_text(utils.text_below_title_one),
                 main_text(utils.text_below_title_two),
                 contact_box(),
