@@ -28,4 +28,5 @@ def button_whastapp() -> rx.Component:
         ),
         href="https://wa.me/34622498850",
         is_external=True,
+        z_index="999",
     )
