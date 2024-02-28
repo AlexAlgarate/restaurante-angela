@@ -10,18 +10,8 @@ def index() -> rx.Component:
         rx.script("document.documentElement.lang='es'"),
         desktop(),
         mobile(),
-        # width="100%",
         min_height="100%",
     )
-
-
-# def index() -> rx.Component:
-#     return rx.chakra.hstack(
-#         rx.script("document.documentElement.lang='es'"),
-#         desktop(),
-#         mobile(),
-#         width="100%",
-#     )
 
 
 app = rx.App(style=styles.BASE_STYLE, stylesheets=styles.STYLESHEETS)
