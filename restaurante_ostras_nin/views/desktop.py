@@ -1,12 +1,12 @@
 import reflex as rx
 
-from restaurante_angela.components.apreciations import apreciations
-from restaurante_angela.components.button_whastapp import button_whastapp
-from restaurante_angela.components.contact_box import contact_box
-from restaurante_angela.components.image_oyster import image_oyster
-from restaurante_angela.components.logo import logo
-from restaurante_angela.components.main_text import main_text
-from restaurante_angela.styles import utils as utils
+from restaurante_ostras_nin.components.apreciations import apreciations
+from restaurante_ostras_nin.components.button_whastapp import button_whastapp
+from restaurante_ostras_nin.components.contact_box import contact_box
+from restaurante_ostras_nin.components.image_oyster import image_oyster
+from restaurante_ostras_nin.components.logo import logo
+from restaurante_ostras_nin.components.main_text import main_text
+from restaurante_ostras_nin.styles import utils as utils
 
 
 def desktop() -> rx.Component:

@@ -1,6 +1,6 @@
 import reflex as rx
 
-from restaurante_angela.styles import Routes
+from restaurante_ostras_nin.styles import Routes
 
 
 def image_oyster(

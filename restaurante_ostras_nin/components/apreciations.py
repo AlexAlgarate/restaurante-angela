@@ -1,6 +1,6 @@
 import reflex as rx
 
-from restaurante_angela.styles import Colors, Fonts, utils
+from restaurante_ostras_nin.styles import Colors, Fonts, utils
 
 
 def apreciations() -> rx.Component:

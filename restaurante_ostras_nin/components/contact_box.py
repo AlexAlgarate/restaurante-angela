@@ -1,6 +1,6 @@
 import reflex as rx
 
-from restaurante_angela.styles import Colors, utils
+from restaurante_ostras_nin.styles import Colors, utils
 
 
 def contact_box() -> rx.Component:

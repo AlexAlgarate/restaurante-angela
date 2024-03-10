@@ -1,8 +1,8 @@
 import reflex as rx
 
-from restaurante_angela.styles import styles
-from restaurante_angela.views.desktop import desktop
-from restaurante_angela.views.mobile import mobile
+from restaurante_ostras_nin.styles import styles
+from restaurante_ostras_nin.views.desktop import desktop
+from restaurante_ostras_nin.views.mobile import mobile
 
 
 def index() -> rx.Component:

@@ -1,8 +1,8 @@
 import reflex as rx
 
-from restaurante_angela.styles import utils as utils
-from restaurante_angela.styles.colors import Colors
-from restaurante_angela.styles.fonts import Fonts
+from restaurante_ostras_nin.styles import utils as utils
+from restaurante_ostras_nin.styles.colors import Colors
+from restaurante_ostras_nin.styles.fonts import Fonts
 
 
 def button_whastapp() -> rx.Component:
@@ -25,6 +25,9 @@ def button_whastapp() -> rx.Component:
             line_height="24px",
             letter_spacing="0.36px",
             width="fit-content",
+            _hover={
+                "cursor": "pointer",
+            },
         ),
         href="https://wa.me/34622498850",
         is_external=True,
